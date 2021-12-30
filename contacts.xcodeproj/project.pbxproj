@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB74BA162754E91000787555 /* contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB74BA152754E91000787555 /* contact.swift */; };
 		EB7A2D4B27529FC600EF6B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A2D4A27529FC600EF6B94 /* AppDelegate.swift */; };
 		EB7A2D4D27529FC600EF6B94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A2D4C27529FC600EF6B94 /* SceneDelegate.swift */; };
 		EB7A2D4F27529FC600EF6B94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A2D4E27529FC600EF6B94 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB74BA152754E91000787555 /* contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contact.swift; sourceTree = "<group>"; };
 		EB7A2D4727529FC600EF6B94 /* contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7A2D4A27529FC600EF6B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7A2D4C27529FC600EF6B94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +39,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB74BA142754E8F200787555 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB74BA152754E91000787555 /* contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EB7A2D3E27529FC500EF6B94 = {
 			isa = PBXGroup;
 			children = (
+				EB74BA142754E8F200787555 /* Model */,
 				EB7A2D4927529FC600EF6B94 /* contacts */,
 				EB7A2D4827529FC600EF6B94 /* Products */,
 			);
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB74BA162754E91000787555 /* contact.swift in Sources */,
 				EB7A2D4F27529FC600EF6B94 /* ViewController.swift in Sources */,
 				EB7A2D4B27529FC600EF6B94 /* AppDelegate.swift in Sources */,
 				EB7A2D4D27529FC600EF6B94 /* SceneDelegate.swift in Sources */,
@@ -297,6 +309,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +338,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
